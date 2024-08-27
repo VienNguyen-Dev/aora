@@ -1,0 +1,4 @@
+android {
+    compileSdkVersion 33  // Hoặc phiên bản SDK mà bạn muốn sử dụng
+    // Các cấu hình khác
+}
