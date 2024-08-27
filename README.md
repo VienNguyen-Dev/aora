@@ -48,3 +48,5 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+  Figma design:
+  https://www.figma.com/file/o6xKq25ETLqw5ebqgZonVp/Aora---React-Native-Crash-Course?ck_subscriber_id=2799019833&mode=design&node-id=0:1&t=mWBsU3BycU5JqK1v-1&type=design&utm_campaign=Landing%20Page%20or%20Form%20-%206439554&utm_medium=email&utm_source=convertkit
