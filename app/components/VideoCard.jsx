@@ -12,6 +12,7 @@ const VideoCard = ({
   },
 }) => {
   const [play, setPlay] = useState(false);
+  const [showBadge, setshowBadge] = useState(true);
   return (
     <View className="flex-col px-4 mb-14 items-center">
       <View className="flex-row items-start gap-3">
@@ -26,9 +27,15 @@ const VideoCard = ({
             <Text className="font-pregular text-xs text-[#CDCDE0]">{username}</Text>
           </View>
         </View>
-        <View className="pt-2">
+        <TouchableOpacity
+          onPress={() => {
+            setshowBadge(true);
+          }}
+          className="pt-2"
+        >
           <Image source={icons.menu} className="w-6 h-6" resizeMode="contain" />
-        </View>
+        </TouchableOpacity>
+        {showBadge && <View className="w-[110px] h-[64px] bg-[#1E1E2D] rounded-[5px] shadow-md shadow-[#0000004D] absolute right-5 top-12 z-20"></View>}
       </View>
       {play ? (
         <>
